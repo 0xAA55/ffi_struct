@@ -1,0 +1,6 @@
+[submodule "ffi_struct_derive"]
+	path = ffi_struct_derive
+	url = https://github.com/0xAA55/ffi_struct_derive.git
+[submodule "ffi_struct_trait"]
+	path = ffi_struct_trait
+	url = https://github.com/0xAA55/ffi_struct_trait.git
