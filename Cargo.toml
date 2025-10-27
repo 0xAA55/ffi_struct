@@ -1,0 +1,18 @@
+[package]
+name = "ffi_struct"
+version = "0.0.1"
+edition = "2024"
+authors = ["0xAA55 <838816058@qq.com>"]
+readme = "Readme.md"
+license-file = "LICENSE"
+description = "The proc-macro crate for the Rust programming language to create structs with FFI compatibility. Also allows the members of the FFI structs to be iterable for better reflection than the crate `struct_iterable`."
+repository = "https://github.com/0xAA55/ffi_struct"
+keywords = ["FFI", "struct", "API", "padding", "reflection"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "2.0", features = ["extra-traits", "full"] }
