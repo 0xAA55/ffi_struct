@@ -1,3 +1,6 @@
 
-pub use ffi_struct_derive::Iterable;
-pub use ffi_struct_trait::Iterable;
+pub use ffi_struct_derive::FFIStruct;
+pub use ffi_struct_trait::{
+	FFIStruct,
+	FieldInfo,
+};
