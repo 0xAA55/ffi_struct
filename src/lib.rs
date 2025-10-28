@@ -15,7 +15,7 @@ fn test() {
 	#[derive(Default, Debug)]
 	#[size_of_type(Vec3 = 12, Vec4 = 16)]
 	#[align_of_type(Vec3 = 12, Vec4 = 16)]
-	struct TestStructRust<FT>
+	struct TestStruct<FT>
 	where
 		FT: Default + Clone + Copy + Sized + Any {
 		field1: bool,
