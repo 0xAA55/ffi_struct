@@ -14,8 +14,8 @@ name = "ffi_struct"
 path = "src/lib.rs"
 
 [dependencies]
-ffi_struct_derive = "0.1"
-ffi_struct_trait = "0.1"
+ffi_struct_derive = { path = "./ffi_struct_derive" }
+ffi_struct_trait = { path = "./ffi_struct_trait" }
 
 [package.metadata.docs.rs]
 all-features = true
