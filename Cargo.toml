@@ -1,6 +1,6 @@
 [package]
 name = "ffi_struct"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 authors = ["0xAA55 <838816058@qq.com>"]
 readme = "Readme.md"
@@ -14,8 +14,8 @@ name = "ffi_struct"
 path = "src/lib.rs"
 
 [dependencies]
-ffi_struct_derive = { path = "./ffi_struct_derive" }
-ffi_struct_trait = { path = "./ffi_struct_trait" }
+ffi_struct_derive = { path = "./ffi_struct_derive", version = "0.2" }
+ffi_struct_trait = { path = "./ffi_struct_trait", version = "0.2" }
 
 [package.metadata.docs.rs]
 all-features = true
